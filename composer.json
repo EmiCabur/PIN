@@ -1,0 +1,15 @@
+{
+    "name": "pin/composer",
+    "autoload": {
+        "psr-4": {
+            "Pin\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EmiCabur",
+            "email": "pazcaburemilce@gmail.com"
+        }
+    ],
+    "require": {}
+}
