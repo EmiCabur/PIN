@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Servicess} from 'react'
 
 export const Servicess = () => {
   return (

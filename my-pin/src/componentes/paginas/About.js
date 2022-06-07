@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{About} from 'react'
 
 export const About = () => {
   return (

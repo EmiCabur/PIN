@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Carrusel} from 'react'
 
 const Carrusel = () => {
   return (

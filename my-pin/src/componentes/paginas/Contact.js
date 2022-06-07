@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Contact} from 'react'
 
 export const Contact = () => {
   return (
