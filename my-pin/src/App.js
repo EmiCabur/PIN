@@ -1,27 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'; //raf buscar enter
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './componentes/navbar';
+import Home from './componentes/paginas/Home';
+import Products from './componentes/paginas/Products';
 
-function App() {
-  return (<section className="carrusel"> 
+import About from './componentes/paginas/About';
+import {Contact} from './componentes/paginas/Contact';
+import {Servicess} from './componentes/paginas/Servicess';
 
-  </section> );
-    
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>} */
-    
-  
+function App(){
+  return (
+    <div className='App'>
+      <Router><Navbar/></Router>
+      <Home/>
+      <Products/>
+      <About/>
+      <Servicess/>
+      <Contact/>
+
+      </div>
+  );
 }
 
-export default App
+export default App;
